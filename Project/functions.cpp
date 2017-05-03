@@ -14,8 +14,7 @@ void parse(string& s, vector<vector<string> > &a)
 		vectorOfStrings.push_back(singleAttribute);
 		s.erase(0, pos + 1);
 	}
-
-	
+		
 	a.push_back(vectorOfStrings);
 	vectorOfStrings.push_back(s);
 	vectorOfStrings.clear();
