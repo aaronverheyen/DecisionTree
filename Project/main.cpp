@@ -10,7 +10,6 @@ int main(int argc, const char *argv[])
 	//Tree<map<vector<vector<string>>, string>> tree;
 	
 		
-
 	input.open("../train.dat");
 
 	if (!input)
